@@ -34,7 +34,7 @@ nightstand = Container("Тумбочка")
 locker = Container("Шкаф")
 safe = Container("Сейф")
 chest = Container('Сундук')
-
+chest.container_open()
 
 safe.container_open()
 safe.inventory_add("Деньги")
