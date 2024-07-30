@@ -33,7 +33,7 @@ box = Container("Ящик")
 nightstand = Container("Тумбочка")
 locker = Container("Шкаф")
 safe = Container("Сейф")
-chest Container(':')
+chest = Container('Сундук')
 
 
 safe.container_open()
